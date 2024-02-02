@@ -26,7 +26,7 @@ The initial quality control procedure was executed using FastQC to assess the qu
 
 # Reads processing and de novo transcriptome assembly
 
-The Processing_and_trinity_assembly.sh script contains commands to process the reads using Trimmomatic and perform de novo assembly of the transcriptome with Trinity.
+The Processing_and_Trinity_assembly.sh script contains commands to process the reads using Trimmomatic and perform de novo assembly of the transcriptome with Trinity.
 
 # Assembly statistics and transcript mapping
 

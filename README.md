@@ -14,12 +14,20 @@ FILES:
 
 - Trinity_assembly.Trinity.fasta: FASTA file output of the Trinity transcriptome assembly.
 
+# Prerequisite
+
 The processing of reads and the assembly pipeline are executed through the Processing_and_Trinity_assembly.sh and Assembly_statistics_and_mapping.sh scripts.
 
 Prior to the analysis, it is required to download and decompress RNA-seq library files from NCBI (accession numbers: SRR2072129, SRR2072130, and SRR2072131).
 
+# Initial quality control
+
 The initial quality control procedure was executed using FastQC to assess the quality of the raw reads and visualize the corresponding reports.
 
+# Reads processing and de novo transcriptome assembly
+
 The Processing_and_trinity_assembly.sh script contains commands to process the reads using Trimmomatic and perform de novo assembly of the transcriptome with Trinity.
+
+# Assembly statistics and transcript mapping
 
 The Assembly_statistics_and_mapping.sh script includes commands to generate assembly statistics using the bundled TrinityStats.pl script. It also conducts mapping of the reconstructed transcripts using Gmap and evaluates the representation of the processed reads through Bowtie2.

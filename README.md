@@ -22,7 +22,7 @@ Prior to the analysis, it is required to download and decompress RNA-seq library
 
 # Initial quality control
 
-The initial quality control procedure was executed using [https://www.bioinformatics.babraham.ac.uk/projects/fastqc/] (FastQC) to assess the quality of the raw reads and visualize the corresponding reports.
+The initial quality control procedure was executed using [FastQC]([url](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)) to assess the quality of the raw reads and visualize the corresponding reports.
 
 # Reads processing and de novo transcriptome assembly
 

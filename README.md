@@ -18,7 +18,7 @@ The processing of reads and the assembly pipeline are executed through the Proce
 
 # Prerequisite
 
-Prior to the analysis, it is required to download and decompress RNA-seq library files from NCBI (accession numbers: SRR2072129, SRR2072130, and SRR2072131).
+Prior to the analysis, it is required to download and decompress RNA-seq library files from NCBI (accession numbers: [SRR2072129](https://www.ncbi.nlm.nih.gov/sra/SRR2072129), [SRR2072130](https://www.ncbi.nlm.nih.gov/sra/?term=SRR2072130), and [SRR2072131](https://www.ncbi.nlm.nih.gov/sra/?term=SRR2072131)).
 
 # Initial quality control
 
@@ -26,8 +26,8 @@ The initial quality control procedure was executed using [FastQC](https://www.bi
 
 # Reads processing and de novo transcriptome assembly
 
-The Processing_and_Trinity_assembly.sh script contains commands to process the reads using Trimmomatic and perform de novo assembly of the transcriptome with Trinity.
+The Processing_and_Trinity_assembly.sh script contains commands to process the reads using [Trimmomatic](https://github.com/timflutre/trimmomatic) and perform de novo assembly of the transcriptome with [Trinity](https://github.com/trinityrnaseq/trinityrnaseq).
 
 # Assembly statistics and transcript mapping
 
-The Assembly_statistics_and_mapping.sh script includes commands to generate assembly statistics using the bundled TrinityStats.pl script. It also conducts mapping of the reconstructed transcripts using Gmap and evaluates the representation of the processed reads through Bowtie2.
+The Assembly_statistics_and_mapping.sh script includes commands to generate assembly statistics using the bundled TrinityStats.pl script. It also conducts mapping of the reconstructed transcripts using [Gmap](http://research-pub.gene.com/gmap/) and evaluates the representation of the processed reads through [Bowtie2](https://github.com/BenLangmead/bowtie2).
